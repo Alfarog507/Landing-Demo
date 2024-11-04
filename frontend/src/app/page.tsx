@@ -15,7 +15,6 @@ export default function Home() {
       />
       <CommunitySection
         title="Únete a nuestra comunidad"
-        subtitle="Conoce a otros usuarios"
         description="Conoce a otros usuarios y comparte tus experiencias"
         imageSrc="/images/comunidad.png"
       />
