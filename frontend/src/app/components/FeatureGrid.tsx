@@ -17,6 +17,18 @@ const features = [
     description:
       "Highlight a specific service or product. It can be a property appraisal service, a consultation, or something uniquely yours. Give it room to shine here.",
   },
+  {
+    imageSrc: "/images/educator.svg",
+    title: "Sell your products",
+    description:
+      "Highlight a specific service or product. It can be a property appraisal service, a consultation, or something uniquely yours. Give it room to shine here.",
+  },
+  {
+    imageSrc: "/images/notes.svg",
+    title: "Sell your products",
+    description:
+      "Highlight a specific service or product. It can be a property appraisal service, a consultation, or something uniquely yours. Give it room to shine here.",
+  },
   // Añade más tarjetas aquí si es necesario
 ];
 

@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import CommunitySection from "./components/CommunitySection";
 import FeaturesGrid from "./components/FeatureGrid";
+import TestimonialsSection from "./components/TestimonialSection";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         imageSrc="/images/comunidad.png"
       />
       <FeaturesGrid />
+      <TestimonialsSection />
     </div>
   );
 }
