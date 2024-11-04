@@ -1,20 +1,26 @@
 // app/components/Header.tsx
+"use client";
+
 import React from "react";
 
-type HeaderProps = {
-  title: string;
-  tagline: string;
-  buttonText: string;
-};
-
-const Header: React.FC<HeaderProps> = ({ title, tagline, buttonText }) => {
+const Header: React.FC = () => {
   return (
-    <header className="bg-blue-600 text-white text-center py-20">
-      <h1 className="text-4xl font-bold mb-4">{title}</h1>
-      <p className="text-lg mb-8">{tagline}</p>
-      <button className="bg-yellow-500 text-black py-2 px-6 rounded-lg font-semibold hover:bg-yellow-600">
-        {buttonText}
-      </button>
+    <header className="flex items-center justify-between p-4 md:px-8 bg-cream border-b-2 border-gray-950">
+      <div className="flex items-center">
+        <img src="/images/Logo.png" alt="Logo de la Empresa" className="h-28" />
+        <span className="ml-3 text-xl font-bold text-black">Mi Empresa</span>
+      </div>
+      <nav className="hidden md:flex space-x-4">
+        <a href="#features" className="text-gray-700 hover:text-black">
+          Características
+        </a>
+        <a href="#testimonials" className="text-gray-700 hover:text-black">
+          Testimonios
+        </a>
+        <a href="#contact" className="text-gray-700 hover:text-black">
+          Contacto
+        </a>
+      </nav>
     </header>
   );
 };

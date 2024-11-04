@@ -9,8 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        cream: "#f5f5dc", // Color crema para fondo
+      },
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        itim: ["Itim", "sans-serif"],
       },
     },
   },
