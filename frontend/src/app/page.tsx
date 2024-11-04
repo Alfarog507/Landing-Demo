@@ -5,6 +5,7 @@ import CommunitySection from "./components/CommunitySection";
 import FeaturesGrid from "./components/FeatureGrid";
 import TestimonialsSection from "./components/TestimonialSection";
 import SubscribeForm from "./components/SubscribeForm";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <FeaturesGrid />
       <TestimonialsSection />
       <SubscribeForm />
+      <Footer />
     </div>
   );
 }
