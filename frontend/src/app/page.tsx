@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import CommunitySection from "./components/CommunitySection";
 import FeaturesGrid from "./components/FeatureGrid";
 import TestimonialsSection from "./components/TestimonialSection";
+import SubscribeForm from "./components/SubscribeForm";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       />
       <FeaturesGrid />
       <TestimonialsSection />
+      <SubscribeForm />
     </div>
   );
 }
