@@ -16,7 +16,7 @@ const Hero: React.FC<HeroProps> = ({ title, subtitle, buttonText }) => {
         <div className="md:w-1/2">
           <h1 className="text-5xl font-bold font-poppins mb-4">{title}</h1>
           <p className="text-xl text-gray-700 mb-6 font-itim">{subtitle}</p>
-          <button className="bg-transparent border border-gray-400 text-gray-700 py-2 px-6 rounded-lg font-semibold hover:border-black hover:text-black transition duration-300">
+          <button className="bg-transparent border border-gray-400 text-gray-700 py-2 px-6 rounded-lg font-semibold transition duration-300 hover:bg-black hover:text-cream hover:border-black">
             {buttonText}
           </button>
         </div>
@@ -24,7 +24,7 @@ const Hero: React.FC<HeroProps> = ({ title, subtitle, buttonText }) => {
           <img
             src="/images/image1.jpg"
             alt="Imagen del Producto"
-            className="w-full max-w-md h-auto rounded-lg shadow-lg"
+            className="w-full h-auto rounded-lg shadow-lg"
           />
         </div>
       </div>
